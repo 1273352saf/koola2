@@ -1,0 +1,852 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.js","import":"Cairo","arguments":[{"subsets":["arabic","latin"],"weight":["300","400","600","700"],"display":"swap","variable":"--font-cairo"}],"variableName":"cairo"} ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* arabic */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/00c85bb211b329fc-s.p.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/33869b29596d7bb6-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/0fb5d54cc1f5e91d-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/00c85bb211b329fc-s.p.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/33869b29596d7bb6-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/0fb5d54cc1f5e91d-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/00c85bb211b329fc-s.p.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/33869b29596d7bb6-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/0fb5d54cc1f5e91d-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/00c85bb211b329fc-s.p.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/33869b29596d7bb6-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cairo_492b8a';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/0fb5d54cc1f5e91d-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Cairo_Fallback_492b8a';src: local("Arial");ascent-override: 136.94%;descent-override: 60.01%;line-gap-override: 0.00%;size-adjust: 95.15%
+}.__className_492b8a {font-family: '__Cairo_492b8a', '__Cairo_Fallback_492b8a';font-style: normal
+}.__variable_492b8a {--font-cairo: '__Cairo_492b8a', '__Cairo_Fallback_492b8a'
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+/* Basic Reset & Body Styles */
+body {
+    font-family: 'Cairo', 'Tahoma', 'Arial', sans-serif; /* Added Cairo font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    direction: rtl; /* Right-to-left */
+    line-height: 1.6;
+    padding-top: 70px; /* Add padding to body to prevent content jump below sticky header */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img,
+svg,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+header#main-header { /* Targeting by ID */
+    background-color: #ffffff;
+    padding: 0 15px; /* Adjusted padding */
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed; /* Make header sticky */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure header stays on top */
+    height: 70px; /* Fixed height for sticky header */
+}
+
+/* Use flexbox on the container to align logo and nav */
+header .container {
+    display: flex;
+    justify-content: space-between; /* Pushes logo and nav apart */
+    align-items: center;
+    height: 100%; /* Ensure container fills header height */
+    max-width: 1200px; /* Ensure container respects max-width */
+    margin: 0 auto; /* Center container */
+    padding: 0; /* Remove padding from inner container if outer has it */
+}
+
+header .logo {
+    /* Logo takes natural width */
+    margin-left: 20px; /* Add some space to the left (in RTL, this is space between logo and nav) */
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.9em; /* Slightly larger */
+    font-weight: 700; /* Bolder */
+}
+header .logo a {
+    color: #d9534f; /* Example: Reddish color */
+    font-weight: bold;
+}
+header .logo a:hover {
+    text-decoration: none;
+    color: #c9302c; /* Darker red on hover */
+}
+
+header nav {
+    /* Nav takes remaining space if needed, but space-between handles positioning */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Vertically align nav items with logo */
+}
+
+header nav ul li {
+    margin-right: 20px; /* Adjust spacing between nav items */
+}
+header nav ul li:first-child {
+    margin-right: 0; /* No margin needed before the first item */
+}
+
+header nav ul li a {
+    color: #555;
+    font-size: 1.1em;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+    white-space: nowrap; /* Prevent nav links from wrapping */
+}
+
+header nav ul li a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* News Ticker */
+#news-ticker {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 0;
+    position: fixed; /* Fixed below the main header */
+    top: 70px; /* Position below the header */
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999; /* Below header but above content */
+    height: 40px; /* Fixed height */
+    overflow: hidden; /* Hide overflow */
+}
+
+#news-ticker .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#ticker-text {
+    display: inline-block; /* Needed for animation/transition */
+    white-space: nowrap; /* Prevent text wrapping */
+    font-size: 0.95em;
+    animation: ticker-scroll 25s linear infinite; /* Adjusted duration */
+    transition: opacity 0.3s ease-in-out; /* Add transition for text change */
+    will-change: transform, opacity;
+}
+
+/* Simple Right-to-Left Scroll Animation */
+@keyframes ticker-scroll {
+    0% { transform: translateX(100%); } /* Start off-screen right */
+    100% { transform: translateX(-150%); } /* End further off-screen left to ensure gap */
+}
+
+/* Main Content Area */
+.main-content {
+    display: flex;
+    flex-direction: column; /* Changed from row to column */
+    gap: 0; /* Control spacing with padding/margin on children */
+    padding-top: 60px; /* Adjusted padding to account for ticker height */
+    padding-bottom: 20px;
+    /* No longer needs to be a flex container itself for main/sidebar split */
+}
+
+
+/* Section Header Container (Title + Search) */
+.section-header-container {
+    display: flex;
+    justify-content: space-between; /* Push title and search apart */
+    align-items: center; /* Vertically center items */
+    margin-bottom: 20px; /* Space below the header */
+    padding: 0; /* Removed container padding, rely on parent .container */
+    width: 100%; /* Ensure it takes full width within its parent .container */
+}
+
+.section-header-container .section-title { /* Style for h2 within this container */
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+    white-space: nowrap;
+    margin-left: 15px; /* Space in RTL */
+    font-size: 1.8em; /* Consistent section title size */
+    color: #333;
+    /* border-bottom: 2px solid #d9534f; Re-added from bottom of original CSS */
+}
+
+.search-bar-container {
+    display: flex;
+    flex-grow: 1; /* Allow search bar to take remaining space */
+    max-width: 400px; /* Optional: Max width for search bar */
+}
+
+.search-input {
+    flex-grow: 1; /* Input field takes most space */
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Rounded corners on the right (RTL) */
+    font-family: inherit;
+    font-size: 0.95em;
+    border-left: none; /* Remove border between input and button */
+}
+
+.search-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0; /* Rounded corners on the left (RTL) */
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.95em;
+    transition: background-color 0.2s ease;
+    white-space: nowrap;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+/* Container for the main feed and sidebar below the top section */
+.lower-content-area {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    gap: 20px; /* Space between main feed and sidebar */
+    padding: 0; /* Removed padding, rely on parent .container */
+    width: 100%; /* Ensure it takes full width */
+    align-items: flex-start; /* Align items to the top */
+}
+
+/* Main news feed area */
+#main-news-feed { /* This will be the <main> element for tabs */
+    flex: 1 1; /* Takes more space than sidebar */
+    min-width: 0; /* Prevent flex items from overflowing */
+    display: flex; /* Added for new structure */
+    flex-direction: column; /* Stack tabs-nav and tabs-content */
+}
+
+/* Sidebar moved below top-section */
+.sidebar {
+    flex-basis: 300px; /* Give sidebar a fixed base width */
+    flex-shrink: 0; /* Prevent sidebar from shrinking */
+    flex-grow: 0; /* Prevent sidebar from growing */
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    align-self: flex-start; /* Align sidebar to the top of lower-content-area */
+    /* Make sidebar sticky within its parent column */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 130px; /* Adjust based on header + ticker height + some gap (70px header + 40px ticker + 20px gap) */
+}
+
+
+/* Top Section (Slider + Live Stream) */
+.top-section {
+    display: flex;
+    gap: 20px; /* Space between slider and live stream */
+    height: 350px; /* Set fixed height for the container */
+    min-height: 350px; /* Ensure it maintains height */
+    margin-bottom: 20px; /* Add space below the top section */
+}
+
+.slider-container {
+    flex: 2 1; /* Slider takes more space */
+    min-width: 0; /* Prevent flex item overflow */
+    height: 100%; /* Fill the height of top-section */
+    padding: 0 !important; /* Override news-item padding */
+    border: none !important; /* Override news-item border */
+    box-shadow: none !important; /* Override news-item shadow */
+    background: none !important; /* Override news-item background */
+    position: relative; /* Needed for absolute positioning of slides and next/image fill */
+    border-radius: 4px; /* Optional: Add border radius */
+    overflow: hidden; /* Clip child elements */
+}
+
+.live-stream-section {
+    flex: 1 1; /* Live stream takes less space */
+    min-width: 0; /* Prevent flex item overflow */
+    height: 100%; /* Fill the height of top-section */
+    background-color: #000; /* Dark background for placeholder */
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #444;
+}
+
+.live-stream-section h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #555;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.live-stream-section .video-placeholder {
+    flex-grow: 1; /* Make placeholder fill available space */
+    background-color: #222;
+    border: 1px dashed #666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9em;
+    color: #ccc;
+    border-radius: 4px;
+}
+.live-stream-section .video-placeholder span {
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: #888;
+}
+
+/* Slider Styles */
+#main-slider {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Fill slider-container height */
+    overflow: hidden;
+    border-radius: 4px; /* Match container */
+}
+
+#main-slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    z-index: 1; /* Default z-index */
+    will-change: opacity;
+}
+
+#main-slider .slide.active {
+    opacity: 1;
+    z-index: 2; /* Active slide on top */
+}
+
+/* #main-slider .slide img { -- next/image handles this
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+} */
+
+/* Slider Content Overlay */
+.slide-content-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    padding: 20px 15px 15px 15px; /* Adjusted padding */
+    z-index: 3; /* Above the image */
+    border-bottom-left-radius: 4px; /* Match container */
+    border-bottom-right-radius: 4px; /* Match container */
+    color: #ffffff;
+}
+
+.slide-category {
+    display: inline-block;
+    background-color: #d9534f; /* Match logo color */
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.slide-headline {
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1.3;
+}
+
+.slide-headline a {
+    color: #ffffff !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.slide-headline a:hover {
+     text-decoration: underline;
+     color: #f0f0f0 !important;
+}
+
+/* News Item Styling (Apply to non-slider/live stream items) */
+.news-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    /* Remove margin from the last item in a container (like tab panel) */
+}
+
+.tab-panel .news-item:last-child {
+    margin-bottom: 0;
+}
+
+.news-item h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.news-item h2 a {
+     color: #333;
+}
+.news-item h2 a:hover {
+     color: #0056b3;
+}
+
+.news-image { /* This class might be applied by next/image if specified */
+    margin-bottom: 10px;
+    border-radius: 3px;
+    /* object-fit: cover; next/image handles this via style prop */
+    /* height: 200px;  next/image handles this via props or style on parent */
+    width: 100% !important; /* Ensure it fills width if not using 'fill' */
+    object-fit: cover; /* Good default for non-fill images */
+}
+
+.placeholder-img {
+    /* Specific styles if needed for placeholders */
+     filter: grayscale(20%); /* Example: Make placeholder less prominent */
+     opacity: 0.9;
+}
+
+.news-item p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.news-category {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+
+/* Sidebar Styling */
+.ad-placeholder, .latest-news {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    text-align: center;
+}
+.ad-placeholder h3, .latest-news h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+.ad-placeholder p {
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 0.9em;
+}
+.ad-image { /* next/image will control this */
+    margin: 0 auto 10px auto;
+    opacity: 0.7;
+    max-width: 80% !important;
+    height: auto !important;
+}
+
+.latest-news ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right; /* Align list items right */
+}
+.latest-news ul li {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+.latest-news ul li a {
+     color: #0056b3;
+}
+
+/* Tabs Styling */
+.tabs-nav {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabs-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tabs-nav li {
+    margin-left: 5px; /* Space between tabs */
+}
+.tabs-nav li:first-child {
+    margin-right: 0; /* RTL: No margin before first item */
+}
+
+.tab-button {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-bottom: none; /* Remove bottom border for inactive */
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1em;
+    color: #007bff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    top: 1px; /* Align with the bottom border of the nav container */
+    white-space: nowrap; /* Prevent tab text from wrapping */
+}
+
+.tab-button:hover {
+    background-color: #e9ecef;
+}
+
+.tab-button.active {
+    background-color: #ffffff; /* White background for active tab */
+    border-color: #dee2e6 #dee2e6 #ffffff; /* Match border, make bottom transparent */
+    color: #333;
+    font-weight: bold;
+}
+
+.tabs-content {
+    /* Container for panels */
+}
+
+.tab-panel {
+    display: none; /* Hide inactive panels */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-top: none; /* Top border is handled by nav */
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px; /* Bottom corners rounded */
+}
+
+.tab-panel.active {
+    display: block; /* Show active panel */
+}
+.tab-panel > p:first-child { /* Style placeholder text if needed */
+    color: #666;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px; /* Add some margin above footer */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .lower-content-area {
+        flex-direction: column; /* Stack main feed and sidebar */
+    }
+    #main-news-feed {
+        flex-basis: auto; /* Allow main feed to take full width */
+        order: 1; /* Keep main content first */
+        width: 100%;
+    }
+    .sidebar {
+        flex-basis: auto; /* Allow sidebar to take full width */
+        width: 100%; /* Ensure full width when stacked */
+        margin-top: 20px; /* Add space when stacked below tabs */
+        order: 2; /* Show sidebar after main */
+        align-self: stretch; /* Make sidebar stretch */
+        position: static; /* Remove sticky positioning on medium screens */
+    }
+    .top-section {
+         /* Keep row layout for medium screens if possible */
+         height: 300px; /* Reduce height */
+         min-height: 300px;
+    }
+     #main-slider, .live-stream-section {
+          height: 100%; /* Maintain height */
+     }
+     .slide-headline {
+        font-size: 1.2em;
+     }
+}
+
+@media (max-width: 768px) {
+     body {
+        padding-top: 0; /* Remove padding when header is not sticky */
+    }
+
+    header#main-header {
+        height: auto; /* Allow header to grow if needed */
+        min-height: 70px; /* But maintain minimum */
+        position: static; /* Header no longer sticky on small screens */
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Less prominent shadow */
+    }
+    header .container {
+        /* Keep flex row, but allow wrapping */
+        flex-wrap: wrap;
+        justify-content: center; /* Center items when wrapped */
+        padding: 5px 0; /* Add some padding when wrapped */
+    }
+     header .logo {
+        margin-left: 0; /* Remove specific margin */
+        margin-bottom: 5px; /* Add bottom margin if wrapped */
+        flex-basis: 100%; /* Make logo take full width if wrapped */
+        text-align: center; /* Center logo text */
+     }
+     header nav {
+         flex-basis: 100%; /* Make nav take full width if wrapped */
+     }
+     header nav ul {
+        justify-content: center; /* Center nav items */
+        flex-wrap: wrap; /* Allow nav items to wrap */
+        padding-right: 0; /* Remove padding if needed */
+    }
+    header nav ul li {
+        margin: 0 8px 5px 8px; /* Adjust spacing for wrapped items */
+    }
+    header nav ul li:first-child {
+        margin-right: 8px; /* Restore margin */
+    }
+
+     #news-ticker {
+        /* Keep it static as before for small screens */
+        position: static;
+        height: auto;
+        padding: 8px 15px;
+     }
+     #ticker-text {
+        animation: none; /* Disable scrolling animation */
+        white-space: normal; /* Allow text wrapping */
+        text-align: center;
+        width: 100%; /* Take full width */
+        font-size: 0.9em; /* Adjust font size */
+     }
+
+     .main-content {
+        padding-top: 15px; /* Adjust top padding */
+     }
+
+     .sidebar {
+         position: static; /* Ensure sidebar is not sticky */
+     }
+
+     .section-header-container {
+        flex-direction: column; /* Stack title and search on small screens */
+        align-items: stretch; /* Make items stretch */
+        gap: 10px; /* Add gap between title and search */
+     }
+     .section-header-container .section-title {
+         text-align: center; /* Center title */
+         margin-left: 0;
+         border-bottom: 2px solid #d9534f; /* Ensure border is visible */
+     }
+     .search-bar-container {
+        max-width: none; /* Allow search to take full width */
+     }
+
+    /* Adjust tab button padding for smaller screens */
+    .tab-button {
+        padding: 8px 10px;
+        font-size: 0.9em;
+    }
+
+    .tabs-nav ul {
+        flex-wrap: wrap; /* Allow tabs to wrap */
+        justify-content: center; /* Center tabs */
+    }
+    .tabs-nav li {
+        margin-left: 3px; /* Reduce space */
+        margin-right: 3px; /* Add space */
+        margin-bottom: 5px; /* Space when wrapped */
+    }
+
+    .lower-content-area {
+        gap: 15px; /* Reduce gap slightly */
+    }
+
+    .top-section {
+        flex-direction: column; /* Stack slider and live stream */
+        height: auto; /* Auto height */
+        min-height: unset;
+    }
+    #main-slider { /* The slider itself */
+        height: 250px; /* Adjust slider height for smaller screens */
+    }
+    .slider-container { /* The article wrapping the slider */
+        height: 250px;
+    }
+    .live-stream-section {
+        height: 250px; /* Give live stream a fixed height on mobile too */
+        margin-top: 15px; /* Add space when stacked */
+    }
+
+    .news-image { /* For non-fill images */
+       height: 150px;
+    }
+
+    .slide-headline {
+        font-size: 1.1em; /* Adjust slide headline size */
+    }
+     .slide-content-overlay {
+        padding: 20px 10px 10px 10px;
+     }
+}
+
+/* Section Title Style - General (used if .section-header-container .section-title isn't specific enough) */
+.section-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d9534f; /* Use theme color */
+    color: #333;
+}
